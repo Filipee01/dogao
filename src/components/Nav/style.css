@@ -1,0 +1,36 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FF7F00;
+}
+
+img {
+    width: 10rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+li{
+    display: flex;
+    padding: .7rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+li:hover {
+    background-color: #111;
+    color: #FFF;
+    transition: 400ms ease;
+}
