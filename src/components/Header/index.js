@@ -1,12 +1,12 @@
 import banner from '../images/respect.png'
-import style from './style.css'
+import style from '../Header/style.css'
 
 function Header () {
     return (
-        <di>    
+        <div className={style}>    
             <img src={banner} alt="opa"/>
 
-        </di>
+        </div>
     )
 }
 
